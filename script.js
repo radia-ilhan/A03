@@ -1,17 +1,17 @@
 //Eid sale 
-function newPric(urrtPic, discount) {
+function newPrice(currentPrice, discount) {
     
-    if (typeof currentPrice != "number" {
-        return "Ivalid"
-    }
-    if (typeof discount != "number"
+    if (typeof currentPrice != "number") {
         return "Invalid"
     }
-    // discount ta vali range e kina
+    if (typeof discount != "number") {
+        return "Invalid"
+    }
+    // discount ta valid range e kina
     if (discount < 0 || discount > 100) {
         return "Invalid"
     }
-    var cut = (currentPrice * discount) /100
+    var cut = (currentPrice * discount) / 100
     var newP = currentPrice - cut
     return newP.toFixed(3)
 }
