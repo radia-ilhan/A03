@@ -1,7 +1,7 @@
 //Eid sale 
 function newPrice(currentPrice, discount) {
     
-    if (typeof currentPrice != "number") {
+    if (typeof currentPrice != "number" {
         return "Invalid"
     }
     if (typeof discount != "number") {
