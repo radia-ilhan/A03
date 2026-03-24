@@ -1,5 +1,5 @@
 //Eid sale 
-function newPrice(currntPrice, discount) {
+function newPrice(currntPric, discount) {
     
     if (typeof currentPrice != "number" {
         return "Invalid"
