@@ -11,7 +11,7 @@ function newPrice(urrtPric, discount) {
     if (discount < 0 || discount > 100) {
         return "Invalid"
     }
-    var cut = (currentPrice * discount) / 100
+    var cut = (currentPrice * discount) /100
     var newP = currentPrice - cut
     return newP.toFixed(3)
 }
