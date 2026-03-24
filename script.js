@@ -7,7 +7,7 @@ function newPric(urrtPic, discount) {
     if (typeof discount != "number"
         return "Invalid"
     }
-    // discount ta valid range e kina
+    // discount ta vali range e kina
     if (discount < 0 || discount > 100) {
         return "Invalid"
     }
