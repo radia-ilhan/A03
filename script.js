@@ -2,7 +2,7 @@
 function newPric(urrtPic, discount) {
     
     if (typeof currentPrice != "number" {
-        return "Invalid"
+        return "Ivalid"
     }
     if (typeof discount != "number"
         return "Invalid"
