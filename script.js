@@ -4,7 +4,7 @@ function newPrice(currntPrice, discount) {
     if (typeof currentPrice != "number" {
         return "Invalid"
     }
-    if (typeof discount != "number") {
+    if (typeof discount != "number") 
         return "Invalid"
     }
     // discount ta valid range e kina
