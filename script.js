@@ -1,5 +1,5 @@
 //Eid sale 
-function newPrice(urrtPic, discount) {
+function newPric(urrtPic, discount) {
     
     if (typeof currentPrice != "number" {
         return "Invalid"
